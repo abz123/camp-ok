@@ -28,8 +28,6 @@ db.json
 *.ntvs*
 *.njsproj
 *.sln
-*.sw*
-.zsh*
 vue.yaml
 
 # audio
