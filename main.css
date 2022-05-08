@@ -29,6 +29,7 @@ body {
 /* use as grid/flex container aswell as wrapper */
 .wrap {
 	margin: 0 auto;
+	max-width: 1600px;
 	background-color: aliceblue;
 }
 /* width: 100%; */

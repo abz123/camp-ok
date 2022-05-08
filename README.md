@@ -34,34 +34,14 @@ Ok Glamping Tablet Mockup.jpg (660 KB)
 responsive typography
 remove grid
 line height - headings
+custom fonts
 
 docs
 starter template based on:
 responsive design
+responsive typography
 media queries
 cookbook
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
