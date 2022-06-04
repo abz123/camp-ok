@@ -49,7 +49,9 @@ header span {
 }
 main {
 	padding: 50px;
-	background-color: #142417;
+	/* background-color: #142417; ddd6c6  */
+	/* background-color: #e8e8e8; */
+	background-color: #D5D0CC;
 }
 main h2 {
 	color: #C09C6D;
@@ -60,7 +62,7 @@ main p {
 	/* margin-left: 50px; */
 }
 address {
-	color: #C6A77C;
+	color: #231F1B;
 }
 img {
 	max-width: 100%;
