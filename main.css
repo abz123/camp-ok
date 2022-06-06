@@ -65,8 +65,9 @@ address {
 	color: #231F1B;
 }
 img {
-	/* max-width: 100%; */
+	max-width: 20%;
 }
+/* max-width: 100%; */
 a:link,
 a:visited {
   color: #333;
