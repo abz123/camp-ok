@@ -29,7 +29,7 @@ body {
 /* use as grid/flex container aswell as wrapper */
 .wrap {
 	margin: 0 auto;
-	max-width: 1600px;
+	max-width: 2500px;
 	background-color: aliceblue;
 }
 /* width: 100%; */
@@ -41,7 +41,7 @@ header {
 	background-color: #F4E7D2;
 	background-image: url(./assets/head-bg.png);
 	background-repeat: repeat-x;
-	padding: 50px;
+	padding: 2em;
 	color: #7F654C;
 }
 header span {
@@ -65,9 +65,8 @@ address {
 	color: #231F1B;
 }
 img {
-	max-width: 20%;
+	max-width: 12%;
 }
-/* max-width: 100%; */
 a:link,
 a:visited {
   color: #333;
