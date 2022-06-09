@@ -31,11 +31,14 @@
 
 			<!-- multi image slots with multi viewport widths(100vw, 50vw)
 					 use with css media queries -->
-			<!-- <img 
-				src="assets/logo-266w.png"
-				srcset="assets/logo-167w.png 167w, assets/logo-266w.png 266w"
-				sizes="(max-width: 167px) 100vw, (max-width: 266px) 50vw"
-				alt="Clamping"> -->
+			<!--assets/logo-167w.png 167w, assets/logo-266w.png 266w   -->
+			<img src="assets/logo-640w.png"
+				srcset="assets/logo-320w.png 320w,assets/logo-640w.png 640w,								assets/logo-1200w.png 1200w, 
+								assets/logo-2000w.png 2000w"
+				sizes="(max-width: 320px) 100vw,(max-width: 640px) 100vw,
+							 (max-width: 1200px) 100vw, (max-width: 2000px) 100vw,
+							 1200px"
+				alt="Clamping">
 			<h1 class="fz-calc">oka clamping <span>co</span></h1>
 		</header>
     <main class="tac">
