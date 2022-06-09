@@ -11,48 +11,34 @@
 <body>
   <div class="wrap">
 		<header class="tac">
-			<!--single slot width images-->
-			<!--
+			<!--multi image slots per 1 viewport width(15vw)-->
+			<!-- 
 				<img 
-				src="assets/logo-266w.png"
-				srcset="assets/logo-167w.png 167w,
-				assets/logo-266w.png 266w"
-				sizes="15vw"
-				alt="Clamping">
-			-->
-			<img 
+					src="assets/logo-266w.png"
+					srcset="assets/logo-167w.png 167w,
+					assets/logo-266w.png 266w"
+					sizes="15vw"
+					alt="Clamping"> -->
+
+			<!-- multi image slots with multi 
+					 viewport widths(100vw, 50vw) -->
+			<!-- <img 
 				src="assets/logo-266w.png"
 				srcset="assets/logo-167w.png 167w, 
 							  assets/logo-266w.png 266w"
 				sizes="(max-width: 167px) 100vw, (max-width: 266px) 50vw"
+				alt="Clamping"> -->
+
+			<!-- multi image slots with multi viewport widths(100vw, 50vw)
+					 use with css media queries -->
+			<!--assets/logo-167w.png 167w, assets/logo-266w.png 266w   -->
+			<img src="assets/logo-640w.png"
+				srcset="assets/logo-320w.png 320w,assets/logo-640w.png 640w,								assets/logo-1200w.png 1200w, 
+								assets/logo-2000w.png 2000w"
+				sizes="(max-width: 320px) 100vw,(max-width: 640px) 100vw,
+							 (max-width: 1200px) 100vw, (max-width: 2000px) 100vw,
+							 1200px"
 				alt="Clamping">
-				<!--sizes="(max-width: 320px) 167px, 266px"-->
-				<!--sizes="(max-width: 320px) 167px, 266px"-->
-
-
-				<!--
-					<img 
-					src="flower.jpg"
-					srcset="flower-small.jpg 480w, flower-large.jpg 800w"
-					sizes="(max-width: 480px) 100vw, 
-					(max-width: 1024px) 50vw, 800px">-->
-
-					<!--
-						<img 
-						src="images/flower1.jpg" 
-						srcset="images/flower1-480.jpg 480w, 
-						images/flower1-1080.jpg 1080w" 
-						sizes="(max-width: 480px) 100vw,
-						(max-width: 1024px) 480px, 1024px">-->
-
-						<!--
-							<img 
-							src="images/flower2.jpg" 
-							srcset="images/flower2-480.jpg 480w, 
-							images/flower2-1080.jpg 1080w" 
-							sizes="(max-width: 480px) 100vw, 
-							(max-width: 1024px) 480px, 1024px">
-						-->
 			<h1 class="fz-calc">oka clamping <span>co</span></h1>
 		</header>
     <main class="tac">
