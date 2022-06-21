@@ -116,10 +116,8 @@ p, a, address {
 	text-align: center;
 }
 
-/* use as grid/flex container, wrapper */
 .wrap {
 	margin: 0 auto;
-	/* max-width: 2500px; */
 }
 header {
 	background-color: #F4E7D2;
