@@ -12,50 +12,73 @@
   <div class="wrap">
 		<header class="tac">
 			<!-- multi image slot viewports 
-					 width(100vw), css media queries -->
-			<img src="assets/logo-640w.png"
-				srcset="assets/logo-320w.png 320w,assets/logo-640w.png 640w,								assets/logo-1200w.png 1200w, 
-								assets/logo-2000w.png 2000w"
+			width(100vw), css media queries -->
+			<!--
+				<img src="assets/logo-640w.png"
+					srcset="assets/logo-320w.png 320w,
+									assets/logo-640w.png 640w, 
+									assets/logo-1200w.png 1200w, 
+									assets/logo-2000w.png 2000w"
+
 				sizes="(max-width: 320px) 100vw,(max-width: 640px) 100vw,
-							 (max-width: 1200px) 100vw, (max-width: 2000px) 100vw,
-							 1200px"
+				(max-width: 1200px) 100vw,(max-width: 2000px) 100vw,
+				(min-width: 2001px) 100vw"
 				alt="Clamping">
-			<h1>oka clamping <span>co</span></h1>
+			-->
+				<picture>
+					<source srcset="assets/mob/narrow/logo.avif, 360w"												 media="(max-width: 360px)">
+					<source srcset="assets/mob/narrow/logo.webp, 360w"												 media="(max-width: 360px)"> 
+
+					<source srcset="assets/tablet/ex-narrow/logo.avif, 601w"												 media="(max-width: 601px)">
+					<source srcset="assets/tablet/ex-narrow/logo.webp, 601w"												 media="(max-width: 601px)">
+
+					<source srcset="assets/tablet/narrow/logo.avif, 768w"												 media="(max-width: 768px)">
+					<source srcset="assets/tablet/narrow/logo.webp, 768w"												 media="(max-width: 768px)">
+
+					<source srcset="assets/desk/ex-narrow/logo.avif, 1280w"												 media="(max-width: 1280px)">
+					<source srcset="assets/desk/ex-narrow/logo.webp, 1280w"												 media="(max-width: 1280px)">
+
+					<source srcset="assets/desk/ex-wide/logo.avif, 1920w"												 media="(max-width: 5000px)">
+					<source srcset="assets/desk/ex-wide/logo.webp, 1920w"												 media="(max-width: 5000px)">
+					<img src="assets/mob/narrow/logo.png" alt="Clamping">
+				</picture>
+
+				<h1>oka clamping <span>co</span></h1>
 		</header>
-    <main class="mq-d-f">
+		<main class="mq-d-f">
 			<article class="mq-m-5per mq-fx-g3-s-b0 mq-bgc-p">
 				<h2 class="fz-calc">Opening summer 2022</h2>
 
 				<p>Furnished nightly yurt and canvas tent clamping set on a 
-					 forested hillside overlooking Okanagan lake. This off 
-					 grid luxgury camping getaway is only 45 minutes from west
-					 Kelowana.</p>
+				forested hillside overlooking Okanagan lake. This off 
+				grid luxgury camping getaway is only 45 minutes from west
+				Kelowana.</p>
 			</article>
 			<aside class="mq-fx-g-s-b0 mq-bgc-p">
-        <h3 class="fz-calc">Details</h3>
+				<h3 class="fz-calc">Details</h3>
 
-        <ul>
-          <li>
+				<ul>
+					<li>
 						<a href="#">
 							Furnished nightly yurt and canvas tent clamping set
 						</a>
 					</li>
-          <li>
+					<li>
 						<a href="#">
 							Forested hillside overlooking Okanagan lake. 
 						</a>
 					</li>
-          <li>
+					<li>
 						<a href="#">
-					  	Off grid luxgury camping getaway 45 minutes from Kelo 
+							Off grid luxgury camping getaway 45 minutes from Kelo 
 						</a>
 					</li>
-        </ul>
-      </aside>
-    </main>
-	  <footer>
+				</ul>
+			</aside>
+		</main>
+		<footer>
 			<address class="tac">10377 Westside road Oka Canada</address>
-	  </footer>
-  </div>
+		</footer>
+	</div>
 </body>
 </html>
