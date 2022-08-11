@@ -156,6 +156,11 @@ aside li:last-child {
 	margin-bottom: 0;
 } 
 
+img {
+	width: 100%;
+	height: auto;
+}
+
 /*
  * media queries 
  * * * * * * * * * * * * * * * * * * * */
